@@ -15,7 +15,7 @@ body {
 }
 
 .section-content {
-    margin: 0px 200px 100px 200px;
+    margin: 0px 200px 100px 250px;
 }
 
 /* SECTION ONE */
@@ -35,6 +35,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 15px;
+    margin-top: 50px;
 }
 
 .header-info h1 {
@@ -63,8 +64,8 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #7c7c7c;
-    width: 450px;
-    height: 200px;
+    width: auto;
+    height: auto;
     text-align: center;
 }
 
@@ -75,7 +76,36 @@ body {
 }
 
 /* SECTION TWO */
+.random-info {
+    display: flex;
+    justify-content: center;
+}
 
+.cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.border {
+    flex: 0 0 1;
+    border: solid 6px #3882F6;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.card-text {
+    text-align: center;
+    flex-wrap: wrap;
+}
 
 /* SECTION THREE */
 .three {
@@ -83,3 +113,9 @@ body {
 }
 
 /* SECTION FOUR */
+
+/* FOOTER */
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
