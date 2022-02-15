@@ -64,12 +64,11 @@ body {
 }
 
 .header-image {
+    flex: 1 1 0;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #7c7c7c;
-    width: auto;
-    height: auto;
     text-align: center;
 }
 
